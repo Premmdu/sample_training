@@ -12,18 +12,18 @@ public class Factorial {
 		System.out.println("Factorial : " + factorial);
 
 	}
-
-	private static int fact(int a) {
+//dinesh guided
+	private static int fact(int c) {
 		// TODO Auto-generated method stub
-		if(a==1){
+		if(c==1){
 		return 1;
 	}
-		if(a<0)
+		if(c<0)
 		{
 			System.out.println("Entered number is negative");
 			return -1;
 	}
-		int B = fact(a-1)*a;
+		int B = fact(c-1)*c;
 		return B;
 
 }

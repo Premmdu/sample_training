@@ -10,6 +10,8 @@ public class Factorial {
 		int A = scanner.nextInt();
 		int factorial = fact(A);
 		System.out.println("Factorial : " + factorial);
+		System.out.println("Factorial code done for CEO: " + factorial);
+		
 
 	}
 //dinesh guided
